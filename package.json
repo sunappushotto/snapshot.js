@@ -3,9 +3,9 @@
   "version": "0.3.54",
   "repository": "sunappushotto/sunappushotto.js",
   "license": "MIT",
-  "main": "dist/snapshot.cjs.js",
-  "module": "dist/snapshot.esm.js",
-  "browser": "dist/snapshot.min.js",
+  "main": "dist/sunappushotto.cjs.js",
+  "module": "dist/sunappushotto.esm.js",
+  "browser": "dist/sunappushotto.min.js",
   "types": "dist/index.d.ts",
   "dependencies": {
     "@ensdomains/eth-ens-namehash": "^2.0.15",
