@@ -1,7 +1,7 @@
 {
-  "name": "@snapshot-labs/snapshot.js",
+  "name": "@sunappushotto/sunappushotto.js",
   "version": "0.3.54",
-  "repository": "snapshot-labs/snapshot.js",
+  "repository": "sunappushotto/sunappushotto.js",
   "license": "MIT",
   "main": "dist/snapshot.cjs.js",
   "module": "dist/snapshot.esm.js",
