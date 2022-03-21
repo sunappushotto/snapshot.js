@@ -1,4 +1,30 @@
 {
+  "10000": {
+    "key": "10000",
+    "name": "smartBCH",
+    "shortName": "BCH",
+    "chainId": 10000,
+    "network": "mainnet",
+    "multicall": "0x1b38EBAd553f218e2962Cb1C0539Abb5d6A37774",
+    "rpc": [
+      "https://smartbch.fountainhead.cash/mainnet"
+    ],
+    "explorer": "https://www.smartscan.cash",
+    "imageIPFS": "QmWG1p7om4hZ4Yi4uQvDpxg4si7qVYhtppGbcDGrhVFvMd"
+  },
+  "10001": {
+    "key": "10000",
+    "name": "smartBCH Amber Testnet",
+    "shortName": "TBCH",
+    "chainId": 10001,
+    "network": "amber",
+    "multicall": "0xAF15A45d934a83b95daCFEbaACCaED8cF97e8200",
+    "rpc": [
+      "https://moeing.tech:9545"
+    ],
+    "explorer": "https://www.smartscan.cash",
+    "imageIPFS": "QmWG1p7om4hZ4Yi4uQvDpxg4si7qVYhtppGbcDGrhVFvMd"
+  },
   "1": {
     "key": "1",
     "name": "Ethereum Mainnet",
@@ -866,19 +892,6 @@
     "explorer": "https://bx.shyft.network",
     "start": 3673983,
     "imageIPFS": "QmUkFZC2ZmoYPTKf7AHdjwRPZoV2h1MCuHaGM4iu8SNFpi"
-  },
-  "10000": {
-    "key": "10000",
-    "name": "smartBCH",
-    "shortName": "BCH",
-    "chainId": 10000,
-    "network": "mainnet",
-    "multicall": "0x1b38EBAd553f218e2962Cb1C0539Abb5d6A37774",
-    "rpc": [
-      "https://smartbch.greyh.at/"
-    ],
-    "explorer": "https://www.smartscan.cash",
-    "imageIPFS": "QmWG1p7om4hZ4Yi4uQvDpxg4si7qVYhtppGbcDGrhVFvMd"
   },
   "11437": {
     "key": "11437",
