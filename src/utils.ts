@@ -181,14 +181,14 @@ export function validateSchema(schema, data) {
   return valid ? valid : validate.errors;
 }
 
-export function getEnsTextRecord(ens: string, record: string, network = '1') {
-  const address = networks[network].ensResolver || networks['1'].ensResolver;
+export function getEnsTextRecord(ens: string, record: string, network = '10000') {
+  const address = networks[network].ensResolver || networks['10000'].ensResolver;
   const ensHash = hash(normalize(ens));
   const provider = getProvider(network);
   return call(provider, ENS_RESOLVER_ABI, [address, 'text', [ensHash, record]]);
 }
 
-export async function getSpaceUri(id, network = '1') {
+export async function getSpaceUri(id, network = '10000') {
   try {
     return await getEnsTextRecord(id, 'snapshot', network);
   } catch (e) {
