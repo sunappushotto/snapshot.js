@@ -1,6 +1,6 @@
 {
   "name": "@sunappushotto/sunappushotto.js",
-  "version": "0.3.55",
+  "version": "0.3.56",
   "repository": "sunappushotto/sunappushotto.js",
   "license": "MIT",
   "main": "dist/sunappushotto.cjs.js",
