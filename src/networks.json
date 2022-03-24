@@ -14,7 +14,7 @@
     "imageIPFS": "QmWG1p7om4hZ4Yi4uQvDpxg4si7qVYhtppGbcDGrhVFvMd"
   },
   "10001": {
-    "key": "10000",
+    "key": "10001",
     "name": "smartBCH Amber Testnet",
     "shortName": "TBCH",
     "chainId": 10001,
